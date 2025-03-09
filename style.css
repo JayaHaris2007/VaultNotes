@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #111;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #888;
+}
+
+.logout {
+    background: red;
+    color: white;
+}
+
+.logout:hover {
+    background: darkred;
+}
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.note-item {
+    text-align: center;
+}
+
+.note-btn {
+    display: block;
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.note-btn:hover {
+    background: #888;
+}
+
+.uploader {
+    color: #bbb;
+    font-size: 14px;
+}
+
+/* FORM STYLES FOR LOGIN & SIGNUP */
+.form-container {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #888;
+}
+
+.form-container a {
+    display: block;
+    margin-top: 10px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    color: #fff;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
